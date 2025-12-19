@@ -1,0 +1,4 @@
+Experiment,Outlier,Iterations,Setup-Time,Downtime,Total-Time,Ram-Total,Ram-Postcopy-Requests,Ram-Dirty-Sync-Count,Ram-Remaining,Ram-Mbps,Ram-Transferred,Ram-Duplicate,Ram-Dirty-Pages-Rate,Ram-Skipped,Ram-Normal-Bytes,Ram-Normal,Total-Fake-Dirty-Pages,Total-Transferred-Page-Count
+1,Yes,10,43,83,43952,12902539264,0,12,0,695.5746040219544,3817535595,2379181,0,0,3676860416,897671,0,3307088
+2,No,9,42,91,44387,12902539264,0,11,0,739.077487157515,4096586356,2336236,0,0,3967049728,968518,0,3331618
+3,No,6,38,69,44744,12902539264,0,8,0,636.506695656064,3556746080,2333526,0,0,3492864000,852750,0,3196140
