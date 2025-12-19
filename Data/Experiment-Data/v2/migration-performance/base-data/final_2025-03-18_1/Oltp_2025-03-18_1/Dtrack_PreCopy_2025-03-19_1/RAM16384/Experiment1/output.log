@@ -1,0 +1,29 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Oltp in VM
+>>> Started Oltp in VM, Process ID : 2089
+>>> Started 2090 in VM, Process ID : 
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+# Pages Transferred in Current Iteration : 262270
+IOCnt : 0
+# Pages Transferred in Current Iteration : 3925461
+IOCnt : 0
+# Pages Transferred in Current Iteration : 555
+IOCnt : 0
+# Pages Transferred in Current Iteration : 21027
+IOCnt : 0
+Migration Completed ...
+>>> Checking for Migration Status
+>>> Migration Completed

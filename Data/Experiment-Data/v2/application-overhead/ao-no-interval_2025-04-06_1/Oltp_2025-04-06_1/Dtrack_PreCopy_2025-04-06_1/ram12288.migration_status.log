@@ -1,0 +1,9 @@
+---------------- dtrack - oltp ----------------
+>>> RAM: 12288
+Experiment No:
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "ioctl-count": [580, 68204, 348, 1433, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 9, "downtime": 21, "total-time": 11316, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 29447, "downtime-bytes": 2097144, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 844.96598071990798, "transferred": 1194041383, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 1191944239, "duplicate": 2869930, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 1165934592, "normal": 284652}, "page-count": [262256, 2884306, 1607, 5902, 511, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+-----------------------------------
+

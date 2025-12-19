@@ -1,0 +1,74 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2105
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 53471
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 1052882
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 1052882
+Iteration 2 
+# Pages Transferred in Current Iteration : 70393
+Fake Dirty Count : 32541
+Iteration 3 
+# Pages Received in Current Iteration : 70393
+Iteration 3 
+# Pages Transferred in Current Iteration : 11793
+Fake Dirty Count : 6670
+Iteration 4 
+# Pages Received in Current Iteration : 11793
+Iteration 4 
+# Pages Transferred in Current Iteration : 3424
+Fake Dirty Count : 1648
+Iteration 5 
+Iteration 6 
+Function : migration_completion 
+# Pages Received in Current Iteration : 3424
+Iteration 5 
+# Pages Transferred in Current Iteration : 1192
+Fake Dirty Count : 392
+# Pages Received in Current Iteration : 1192
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.Murmur3_2024-08-16_1/Memcached_2024-08-16_1/RAM4096/Experiment2/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  7,141.60 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.Murmur3_2024-08-16_1/Memcached_2024-08-16_1/RAM4096/Experiment2/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           68,144 100%   64.99MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 68,252 bytes  45,530.00 bytes/sec
+total size is 68,144  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.Murmur3_2024-08-16_1/Memcached_2024-08-16_1/RAM4096/Experiment2/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,338 100%    8.91MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,435 bytes  18,956.00 bytes/sec
+total size is 9,338  speedup is 0.99

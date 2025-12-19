@@ -1,0 +1,43 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2148
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 52308
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 528594
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 262218
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 266398
+# Pages Received in Current Iteration : 262218
+Iteration 2 
+# Pages Transferred in Current Iteration : 266110
+Fake Dirty Count : 8
+Iteration 3 
+# Pages Selected to Transfer : 460
+Function : migration_completion 
+# Pages Received in Current Iteration : 266110
+Iteration 3 
+# Pages Transferred in Current Iteration : 460
+Fake Dirty Count : 74
+# Pages Received in Current Iteration : 460
+>>> Checking for Migration Status
+>>> Migration Completed
+>>> Ping Failed : VM is Not Responding after Migration

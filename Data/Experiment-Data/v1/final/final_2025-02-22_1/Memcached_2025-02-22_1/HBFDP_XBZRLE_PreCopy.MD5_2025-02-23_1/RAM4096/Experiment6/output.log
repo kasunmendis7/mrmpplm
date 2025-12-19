@@ -1,0 +1,88 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2123
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 172904
+>>> Enabling XBZRLE
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 1052882
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 1052882
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 94420
+# Pages Received in Current Iteration : 1052882
+Iteration 2 
+# Pages Transferred in Current Iteration : 67461
+Fake Dirty Count : 26959
+Iteration 3 
+# Pages Selected to Transfer : 22031
+# Pages Received in Current Iteration : 67461
+Iteration 3 
+# Pages Transferred in Current Iteration : 10774
+Fake Dirty Count : 11257
+Iteration 4 
+# Pages Selected to Transfer : 6771
+# Pages Received in Current Iteration : 10774
+Iteration 4 
+# Pages Transferred in Current Iteration : 3840
+Fake Dirty Count : 2931
+Iteration 5 
+# Pages Selected to Transfer : 2765
+Function : migration_completion 
+# Pages Received in Current Iteration : 3840
+Iteration 5 
+# Pages Transferred in Current Iteration : 1347
+Fake Dirty Count : 1425
+# Pages Received in Current Iteration : 1347
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_XBZRLE_PreCopy.MD5_2025-02-23_1/RAM4096/Experiment6
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_XBZRLE_PreCopy.MD5_2025-02-23_1/RAM4096/Experiment6
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           70,454 100%   67.19MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 70,563 bytes  141,212.00 bytes/sec
+total size is 70,454  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_XBZRLE_PreCopy.MD5_2025-02-23_1/RAM4096/Experiment6
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,628 100%    9.18MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,724 bytes  19,534.00 bytes/sec
+total size is 9,628  speedup is 0.99

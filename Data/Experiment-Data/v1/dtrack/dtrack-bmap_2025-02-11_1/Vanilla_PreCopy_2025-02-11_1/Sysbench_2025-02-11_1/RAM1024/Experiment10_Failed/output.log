@@ -1,0 +1,37 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Sysbench in VM
+>>> Started Sysbench in VM, Process ID : 2160
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+Starting PreCopy Migartion
+{"return": {}}
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 266450
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 256163
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 10771
+# Pages Received in Current Iteration : 256163
+Iteration 2 
+# Pages Transferred in Current Iteration : 10692
+Fake Dirty Count : 3511
+Iteration 3 
+# Pages Selected to Transfer : 133
+Function : migration_completion 
+# Pages Received in Current Iteration : 10692
+Iteration 3 
+# Pages Transferred in Current Iteration : 4293
+Fake Dirty Count : 21
+# Pages Received in Current Iteration : 4293
+>>> Checking for Migration Status
+>>> Migration Completed
+>>> Ping Failed : VM is Not Responding after Migration

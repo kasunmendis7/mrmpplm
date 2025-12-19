@@ -1,0 +1,174 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2100
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 29917
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 4198610
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 4198610
+Iteration 2 
+# Pages Transferred in Current Iteration : 120313
+Fake Dirty Count : 100080
+Iteration 3 
+# Pages Received in Current Iteration : 120313
+Iteration 3 
+# Pages Transferred in Current Iteration : 43079
+Fake Dirty Count : 38866
+Iteration 4 
+# Pages Received in Current Iteration : 43079
+Iteration 4 
+# Pages Transferred in Current Iteration : 38911
+Fake Dirty Count : 19813
+Iteration 5 
+# Pages Received in Current Iteration : 38911
+Iteration 5 
+# Pages Transferred in Current Iteration : 35187
+Fake Dirty Count : 18033
+Iteration 6 
+# Pages Received in Current Iteration : 35187
+Iteration 6 
+# Pages Transferred in Current Iteration : 31210
+Fake Dirty Count : 15872
+Iteration 7 
+# Pages Received in Current Iteration : 31210
+Iteration 7 
+# Pages Transferred in Current Iteration : 28014
+Fake Dirty Count : 14230
+Iteration 8 
+# Pages Received in Current Iteration : 28014
+Iteration 8 
+# Pages Transferred in Current Iteration : 24480
+Fake Dirty Count : 13366
+Iteration 9 
+# Pages Received in Current Iteration : 24480
+Iteration 9 
+# Pages Transferred in Current Iteration : 22446
+Fake Dirty Count : 11478
+Iteration 10 
+# Pages Received in Current Iteration : 22446
+Iteration 10 
+# Pages Transferred in Current Iteration : 19918
+Fake Dirty Count : 10104
+Iteration 11 
+# Pages Received in Current Iteration : 19918
+Iteration 11 
+# Pages Transferred in Current Iteration : 19527
+Fake Dirty Count : 10052
+Iteration 12 
+# Pages Received in Current Iteration : 19527
+Iteration 12 
+# Pages Transferred in Current Iteration : 17292
+Fake Dirty Count : 8846
+Iteration 13 
+# Pages Received in Current Iteration : 17292
+Iteration 13 
+# Pages Transferred in Current Iteration : 18568
+Fake Dirty Count : 13551
+Iteration 14 
+# Pages Received in Current Iteration : 18568
+Iteration 14 
+# Pages Transferred in Current Iteration : 20693
+Fake Dirty Count : 9016
+Iteration 15 
+# Pages Received in Current Iteration : 20693
+Iteration 15 
+# Pages Transferred in Current Iteration : 22048
+Fake Dirty Count : 12316
+Iteration 16 
+# Pages Received in Current Iteration : 22048
+Iteration 16 
+# Pages Transferred in Current Iteration : 23022
+Fake Dirty Count : 15025
+Iteration 17 
+# Pages Received in Current Iteration : 23022
+Iteration 17 
+# Pages Transferred in Current Iteration : 42687
+Fake Dirty Count : 22233
+Iteration 18 
+# Pages Received in Current Iteration : 42687
+Iteration 18 
+# Pages Transferred in Current Iteration : 67615
+Fake Dirty Count : 32854
+Iteration 19 
+# Pages Received in Current Iteration : 67615
+Iteration 19 
+# Pages Transferred in Current Iteration : 127029
+Fake Dirty Count : 57105
+Iteration 20 
+# Pages Received in Current Iteration : 127029
+Iteration 20 
+# Pages Transferred in Current Iteration : 268810
+Fake Dirty Count : 77785
+Iteration 21 
+# Pages Received in Current Iteration : 268810
+Iteration 21 
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 576696
+Fake Dirty Count : 106747
+Iteration 22 
+# Pages Received in Current Iteration : 576696
+Iteration 22 
+# Pages Transferred in Current Iteration : 202377
+Fake Dirty Count : 88474
+Iteration 23 
+# Pages Received in Current Iteration : 202377
+Iteration 23 
+# Pages Transferred in Current Iteration : 30789
+Fake Dirty Count : 3316
+Iteration 24 
+# Pages Received in Current Iteration : 30789
+Iteration 24 
+# Pages Transferred in Current Iteration : 6549
+Fake Dirty Count : 4357
+Iteration 25 
+Function : migration_completion 
+# Pages Received in Current Iteration : 6549
+Iteration 25 
+# Pages Transferred in Current Iteration : 2194
+Fake Dirty Count : 803
+# Pages Received in Current Iteration : 2194
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.SHA1_2024-08-15_1/Memcached_2024-08-15_1/RAM16384/Experiment7/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.SHA1_2024-08-15_1/Memcached_2024-08-15_1/RAM16384/Experiment7/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           95,633 100%   91.20MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 95,741 bytes  63,856.00 bytes/sec
+total size is 95,633  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_PreCopy.SHA1_2024-08-15_1/Memcached_2024-08-15_1/RAM16384/Experiment7/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00           13,108 100%   12.50MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 13,205 bytes  8,832.00 bytes/sec
+total size is 13,108  speedup is 0.99

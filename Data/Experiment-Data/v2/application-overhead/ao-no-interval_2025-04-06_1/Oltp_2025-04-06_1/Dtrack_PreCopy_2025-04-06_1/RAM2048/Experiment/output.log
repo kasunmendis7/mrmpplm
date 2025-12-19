@@ -1,0 +1,60 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Oltp in VM
+>>> Started Oltp in VM, Process ID : 2062
+>>> Started 2063 in VM, Process ID : 
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+2025-04-06 01:10:21
+Starting Iterations ...
+Migration Completed ...
+>>> Checking for Migration Status
+2025-04-06 01:10:31
+>>> Migration Completed
+>>> OLTP is Still Running
+>>> OLTP is Still Running
+>>> OLTP is Still Running
+root@10.22.196.200:/home/workingset/Desktop//benchbase/target/benchbase-postgres/results/ycsb*results.csv
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/v2/application-overhead/ao-no-interval_2025-04-06_1/Oltp_2025-04-06_1/Dtrack_PreCopy_2025-04-06_1/RAM2048/Experiment
+receiving incremental file list
+created directory /mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/v2/application-overhead/ao-no-interval_2025-04-06_1/Oltp_2025-04-06_1/Dtrack_PreCopy_2025-04-06_1/RAM2048/Experiment/results
+./
+ycsb_2025-04-06_01-11-10.config.xml
+              0   0%    0.00kB/s    0:00:00              933 100%  911.13kB/s    0:00:00 (xfr#1, to-chk=12/14)
+ycsb_2025-04-06_01-11-10.metrics.json
+              0   0%    0.00kB/s    0:00:00            6,837 100%   53.41kB/s    0:00:00 (xfr#2, to-chk=11/14)
+ycsb_2025-04-06_01-11-10.params.json
+              0   0%    0.00kB/s    0:00:00           11,687 100%   45.47kB/s    0:00:00 (xfr#3, to-chk=10/14)
+ycsb_2025-04-06_01-11-10.raw.csv
+              0   0%    0.00kB/s    0:00:00          265,270 100%  685.32kB/s    0:00:00 (xfr#4, to-chk=9/14)
+ycsb_2025-04-06_01-11-10.results.DeleteRecord.csv
+              0   0%    0.00kB/s    0:00:00            5,281 100%    9.77kB/s    0:00:00 (xfr#5, to-chk=8/14)
+ycsb_2025-04-06_01-11-10.results.InsertRecord.csv
+              0   0%    0.00kB/s    0:00:00            5,281 100%    7.79kB/s    0:00:00 (xfr#6, to-chk=7/14)
+ycsb_2025-04-06_01-11-10.results.ReadModifyWriteRecord.csv
+              0   0%    0.00kB/s    0:00:00            5,281 100%    6.48kB/s    0:00:00 (xfr#7, to-chk=6/14)
+ycsb_2025-04-06_01-11-10.results.ReadRecord.csv
+              0   0%    0.00kB/s    0:00:00            4,561 100%    4.66kB/s    0:00:00 (xfr#8, to-chk=5/14)
+ycsb_2025-04-06_01-11-10.results.ScanRecord.csv
+              0   0%    0.00kB/s    0:00:00            5,281 100%    4.74kB/s    0:00:01 (xfr#9, to-chk=4/14)
+ycsb_2025-04-06_01-11-10.results.UpdateRecord.csv
+              0   0%    0.00kB/s    0:00:00            5,103 100%    4.08kB/s    0:00:01 (xfr#10, to-chk=3/14)
+ycsb_2025-04-06_01-11-10.results.csv
+              0   0%    0.00kB/s    0:00:00            4,961 100%    3.58kB/s    0:00:01 (xfr#11, to-chk=2/14)
+ycsb_2025-04-06_01-11-10.samples.csv
+              0   0%    0.00kB/s    0:00:00            4,162 100%    2.73kB/s    0:00:01 (xfr#12, to-chk=1/14)
+ycsb_2025-04-06_01-11-10.summary.json
+              0   0%    0.00kB/s    0:00:00            1,041 100% 1016.60kB/s    0:00:00 (xfr#13, to-chk=0/14)
+
+sent 274 bytes  received 326,721 bytes  130,798.00 bytes/sec
+total size is 325,679  speedup is 1.00

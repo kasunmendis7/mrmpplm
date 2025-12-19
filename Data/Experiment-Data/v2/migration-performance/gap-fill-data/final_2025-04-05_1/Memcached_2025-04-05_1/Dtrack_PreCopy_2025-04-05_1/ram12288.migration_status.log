@@ -1,0 +1,14 @@
+---------------- dtrack - memcached ----------------
+>>> RAM: 12288
+Experiment No: 1
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 10, "status": "completed", "setup-time": 10, "downtime": 185, "total-time": 36106, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 12, "multifd-bytes": 0, "pages-per-second": 25900, "downtime-bytes": 20011455, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 897.67787189716307, "transferred": 4050109992, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 4030098537, "duplicate": 2376142, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 4020871168, "normal": 981658}, "page-count": [262266, 2825445, 39066, 154847, 23611, 26170, 7818, 6805, 3723, 3134, 4915, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 2
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 10, "status": "completed", "setup-time": 9, "downtime": 173, "total-time": 34716, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 12, "multifd-bytes": 0, "pages-per-second": 26931, "downtime-bytes": 19839330, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 901.10597239749904, "transferred": 3909123057, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3889283727, "duplicate": 2379999, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3880124416, "normal": 947296}, "page-count": [262258, 2862556, 14992, 111672, 25573, 21049, 11108, 5468, 4595, 3124, 4900, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 3
+

@@ -1,0 +1,29 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Sysbench in VM
+>>> Started Sysbench in VM, Process ID : 2018
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"error": {"class": "GenericError", "desc": "Parameter 'capability' does not accept value 'dtrack'"}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Inside Migration Thread 
+Return Path Verification : 0 
+Starting Iterations ...
+Iteration 1 
+Pending Size : 17197506560 | Must Precopy : 17197506560 | Can PostCopy : 0
+# Pages Transferred in Current Iteration : 4198610
+Iteration 2 
+Pending = 3375104 | PreCopiable = 3375104
+Pending Size : 3375104 | Must Precopy : 3375104 | Can PostCopy : 0
+Less number of memory pages comapred to previous iteration
+Function : migration_completion 
+>>> Checking for Migration Status
+>>> Migration Completed

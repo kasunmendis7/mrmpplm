@@ -1,0 +1,9 @@
+---------------- vanilla - quicksort ----------------
+>>> RAM: 16384
+Experiment No:
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 6276, 293, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 2, "status": "completed", "setup-time": 9, "downtime": 13, "total-time": 42097, "ram": {"total": 17197506560, "postcopy-requests": 0, "dirty-sync-count": 4, "multifd-bytes": 0, "pages-per-second": 32590, "downtime-bytes": 1613142, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 211.08705132104163, "transferred": 1110316619, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 1108703477, "duplicate": 3944373, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 1072721920, "normal": 261895}, "page-count": [4198610, 7235, 423, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+-----------------------------------
+

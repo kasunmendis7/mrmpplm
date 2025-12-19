@@ -1,0 +1,43 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 1930
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+2025-02-20 12:55:12
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 3150034
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 3150034
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 999
+Function : migration_completion 
+# Pages Received in Current Iteration : 3150034
+Iteration 2 
+# Pages Transferred in Current Iteration : 999
+Fake Dirty Count : 709
+# Pages Received in Current Iteration : 999
+>>> Checking for Migration Status
+2025-02-20 12:55:52
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/quicksort_nop.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/application-overhead_2025-02-20_2/Quicksort_2025-02-20_1/Vanilla_PreCopy_2025-02-20_1/RAM12288/Experiment
+receiving incremental file list
+quicksort_nop.log
+              0   0%    0.00kB/s    0:00:00            3,498 100%    3.34MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 3,599 bytes  7,284.00 bytes/sec
+total size is 3,498  speedup is 0.96

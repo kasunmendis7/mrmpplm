@@ -1,0 +1,92 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2109
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 30265
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 3150034
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 3150034
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 214073
+# Pages Received in Current Iteration : 3150034
+Iteration 2 
+# Pages Transferred in Current Iteration : 214073
+Fake Dirty Count : 118902
+Iteration 3 
+# Pages Selected to Transfer : 86367
+# Pages Received in Current Iteration : 214073
+Iteration 3 
+# Pages Transferred in Current Iteration : 86367
+Fake Dirty Count : 61398
+Iteration 4 
+# Pages Selected to Transfer : 38034
+# Pages Received in Current Iteration : 86367
+Iteration 4 
+# Pages Transferred in Current Iteration : 38034
+Fake Dirty Count : 25211
+Iteration 5 
+# Pages Selected to Transfer : 19460
+# Pages Received in Current Iteration : 38034
+Iteration 5 
+# Pages Transferred in Current Iteration : 19460
+Fake Dirty Count : 12028
+Iteration 6 
+# Pages Selected to Transfer : 11394
+# Pages Received in Current Iteration : 19460
+Iteration 6 
+# Pages Transferred in Current Iteration : 11394
+Fake Dirty Count : 6700
+Iteration 7 
+# Pages Selected to Transfer : 6928
+# Pages Received in Current Iteration : 11394
+Iteration 7 
+# Pages Transferred in Current Iteration : 6928
+Fake Dirty Count : 4009
+Iteration 8 
+# Pages Selected to Transfer : 3687
+Function : migration_completion 
+# Pages Received in Current Iteration : 6928
+Iteration 8 
+# Pages Transferred in Current Iteration : 3687
+Fake Dirty Count : 2206
+# Pages Received in Current Iteration : 3687
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-16_1/Memcached_2025-02-16_1/Vanilla_PreCopy_2025-02-16_1/RAM12288/Experiment1
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-16_1/Memcached_2025-02-16_1/Vanilla_PreCopy_2025-02-16_1/RAM12288/Experiment1
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           67,913 100%   64.77MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 68,021 bytes  45,376.00 bytes/sec
+total size is 67,913  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-16_1/Memcached_2025-02-16_1/Vanilla_PreCopy_2025-02-16_1/RAM12288/Experiment1
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,309 100%    8.88MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,406 bytes  6,299.33 bytes/sec
+total size is 9,309  speedup is 0.99

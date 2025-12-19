@@ -1,0 +1,9 @@
+---------------- compress-dtrack - quicksort ----------------
+>>> RAM: 12288
+Experiment No:
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "ioctl-count": [2671, 268246, 3858, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "compression": {"compression-rate": 4.3176196941791183, "busy": 0, "compressed-size": 242481627, "pages": 237129, "busy-rate": 0}, "iterations": 3, "status": "completed", "setup-time": 10, "downtime": 210, "total-time": 63957, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 5, "multifd-bytes": 0, "pages-per-second": 8637, "downtime-bytes": 3654331, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 33.885981578494693, "transferred": 270650974, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 266996643, "duplicate": 2914561, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 40960, "normal": 10}, "page-count": [262203, 2880654, 6176, 2667, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+-----------------------------------
+

@@ -1,0 +1,54 @@
+---------------- hbfdp - memcached ----------------
+>>> RAM: 12288
+Experiment No: 1
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 194417, 44026, 10734, 3470, 1549, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 5, "status": "completed", "setup-time": 7, "downtime": 45, "total-time": 62460, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 7, "multifd-bytes": 0, "pages-per-second": 23400, "downtime-bytes": 4297239, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 526.66807115751044, "transferred": 4111287695, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 4106990456, "duplicate": 2286705, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 4082733056, "normal": 996761}, "page-count": [3150034, 98099, 23432, 7722, 3093, 1086, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 2
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 44254, 17930, 5959, 1521, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 46, "total-time": 58732, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 23007, "downtime-bytes": 4436775, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 539.00595998297138, "transferred": 3956428215, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3951991440, "duplicate": 2301849, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3928039424, "normal": 958994}, "page-count": [3150034, 92528, 14055, 3106, 1120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 3
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 77142, 13268, 3806, 1600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 8, "downtime": 52, "total-time": 57790, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 28513, "downtime-bytes": 5719077, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 517.60705936104671, "transferred": 3738333978, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3732614901, "duplicate": 2348876, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3709947904, "normal": 905749}, "page-count": [3150034, 83431, 15245, 4277, 1638, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 4
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 81403, 23215, 7908, 2977, 1329, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 5, "status": "completed", "setup-time": 7, "downtime": 40, "total-time": 60437, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 7, "multifd-bytes": 0, "pages-per-second": 26024, "downtime-bytes": 3890943, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 546.08290491477737, "transferred": 4124761307, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 4120870364, "duplicate": 2280797, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 4096233472, "normal": 1000057}, "page-count": [3150034, 100754, 20089, 6454, 2536, 987, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 5
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 69268, 23489, 8048, 2754, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 68, "total-time": 60728, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 25684, "downtime-bytes": 6718599, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 552.07426649758736, "transferred": 4190100282, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 4183381683, "duplicate": 2254260, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 4161683456, "normal": 1016036}, "page-count": [3150034, 96864, 16842, 4880, 1676, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 6
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 87434, 25869, 7369, 2645, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 65, "total-time": 58583, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 28167, "downtime-bytes": 6858135, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 532.82246940726577, "transferred": 3901113711, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3894255576, "duplicate": 2316809, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3872698368, "normal": 945483}, "page-count": [3150034, 88816, 16690, 5042, 1710, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 7
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 202288, 49865, 11819, 3925, 1633, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 5, "status": "completed", "setup-time": 7, "downtime": 45, "total-time": 63374, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 7, "multifd-bytes": 0, "pages-per-second": 23045, "downtime-bytes": 4493979, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 541.28364328435941, "transferred": 4287227642, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 4282733663, "duplicate": 2243548, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 4258717696, "normal": 1039726}, "page-count": [3150034, 98558, 23156, 7674, 2746, 1106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 8
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 69664, 13274, 3960, 1542, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 55, "total-time": 58702, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 28525, "downtime-bytes": 5696685, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 538.66678265610358, "transferred": 3951918441, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3946221756, "duplicate": 2303731, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3923521536, "normal": 957891}, "page-count": [3150034, 89811, 15845, 4507, 1425, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 9
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 144212, 22800, 5370, 2208, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 87, "total-time": 58733, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 26168, "downtime-bytes": 7773327, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 515.09303667881341, "transferred": 3780956799, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3773183472, "duplicate": 2346905, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3752505344, "normal": 916139}, "page-count": [3150034, 85691, 19786, 5600, 1933, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 10
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 165978, 30869, 7403, 2725, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 4, "status": "completed", "setup-time": 7, "downtime": 70, "total-time": 59603, "ram": {"total": 12902539264, "postcopy-requests": 0, "dirty-sync-count": 6, "multifd-bytes": 0, "pages-per-second": 24907, "downtime-bytes": 7463556, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 508.12674327136051, "transferred": 3785077764, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 3777614208, "duplicate": 2342406, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 3756658688, "normal": 917153}, "page-count": [3150034, 82931, 18597, 5903, 2094, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+-----------------------------------
+

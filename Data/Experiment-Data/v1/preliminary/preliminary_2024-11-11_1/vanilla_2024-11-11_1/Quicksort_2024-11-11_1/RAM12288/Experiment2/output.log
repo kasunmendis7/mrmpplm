@@ -1,0 +1,76 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 1864
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 3150034
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 3150034
+Iteration 2 
+# Pages Transferred in Current Iteration : 38312
+Fake Dirty Count : 23391
+Iteration 3 
+# Pages Received in Current Iteration : 38312
+Iteration 3 
+# Pages Transferred in Current Iteration : 22676
+Fake Dirty Count : 7772
+Iteration 4 
+# Pages Received in Current Iteration : 22676
+Iteration 4 
+# Pages Transferred in Current Iteration : 13786
+Fake Dirty Count : 8241
+Iteration 5 
+# Pages Received in Current Iteration : 13786
+Iteration 5 
+# Pages Transferred in Current Iteration : 6244
+Fake Dirty Count : 1633
+Iteration 6 
+# Pages Received in Current Iteration : 6244
+Iteration 6 
+# Pages Transferred in Current Iteration : 5681
+Fake Dirty Count : 1977
+Iteration 7 
+# Pages Received in Current Iteration : 5681
+Iteration 7 
+# Pages Transferred in Current Iteration : 6049
+Fake Dirty Count : 1953
+Iteration 8 
+# Pages Received in Current Iteration : 6049
+Iteration 8 
+# Pages Transferred in Current Iteration : 6412
+Fake Dirty Count : 942
+Iteration 9 
+# Pages Received in Current Iteration : 6412
+Iteration 9 
+# Pages Transferred in Current Iteration : 6829
+Fake Dirty Count : 1512
+Iteration 10 
+# Pages Received in Current Iteration : 6829
+Iteration 10 
+# Pages Transferred in Current Iteration : 5138
+Fake Dirty Count : 2147
+Iteration 11 
+Function : migration_completion 
+# Pages Received in Current Iteration : 5138
+Iteration 11 
+# Pages Transferred in Current Iteration : 1730
+Fake Dirty Count : 293
+# Pages Received in Current Iteration : 1730
+>>> Checking for Migration Status
+>>> Migration Completed

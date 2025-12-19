@@ -1,0 +1,30 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 2018
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+2025-04-05 12:59:57
+Starting Iterations ...
+Migration Completed ...
+>>> Checking for Migration Status
+2025-04-05 13:00:07
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/quicksort_nop.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/v2/application-overhead/ao-nointerval_2025-04-05_1/Quicksort_2025-04-05_1/Dtrack_PreCopy_2025-04-05_1/RAM4096/Experiment
+receiving incremental file list
+quicksort_nop.log
+              0   0%    0.00kB/s    0:00:00            1,282 100%    1.22MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 1,383 bytes  2,852.00 bytes/sec
+total size is 1,282  speedup is 0.90

@@ -1,0 +1,25 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Oltp in VM
+>>> Started Oltp in VM, Process ID : 2149
+>>> Started 2150 in VM, Process ID : 
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+# Pages Transferred in Current Iteration : 266450
+IOCnt : 0
+# Pages Transferred in Current Iteration : 4745
+IOCnt : 0
+Migration Completed ...
+>>> Checking for Migration Status
+>>> Migration Completed

@@ -1,0 +1,66 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2126
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 12762
+>>> Enabling Dtrack
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 266450
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 261341
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 5138
+# Pages Received in Current Iteration : 261341
+Iteration 2 
+# Pages Transferred in Current Iteration : 5138
+Fake Dirty Count : 16
+Iteration 3 
+# Pages Selected to Transfer : 10
+Function : migration_completion 
+# Pages Received in Current Iteration : 5138
+Iteration 3 
+# Pages Transferred in Current Iteration : 12
+Fake Dirty Count : 10
+# Pages Received in Current Iteration : 12
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/dtrack_2025-02-14_1/Dtrack_PreCopy_2025-02-14_1/Memcached_2025-02-14_1/RAM1024/Experiment9
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,810 bytes  11,902.00 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/dtrack_2025-02-14_1/Dtrack_PreCopy_2025-02-14_1/Memcached_2025-02-14_1/RAM1024/Experiment9
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           53,360 100%   50.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 53,461 bytes  107,008.00 bytes/sec
+total size is 53,360  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/dtrack_2025-02-14_1/Dtrack_PreCopy_2025-02-14_1/Memcached_2025-02-14_1/RAM1024/Experiment9
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            7,337 100%    7.00MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 7,434 bytes  14,954.00 bytes/sec
+total size is 7,337  speedup is 0.98

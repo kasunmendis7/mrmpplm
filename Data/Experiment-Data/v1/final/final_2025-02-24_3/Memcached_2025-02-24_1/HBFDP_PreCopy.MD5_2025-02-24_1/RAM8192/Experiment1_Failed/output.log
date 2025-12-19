@@ -1,0 +1,127 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2109
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 199802
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 2101458
+# Pages Transferred in Current Iteration : 144
+Fake Dirty Count : 0
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Migration Failure

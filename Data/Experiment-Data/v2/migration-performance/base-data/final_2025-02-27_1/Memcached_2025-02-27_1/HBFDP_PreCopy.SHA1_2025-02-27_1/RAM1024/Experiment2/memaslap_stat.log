@@ -1,0 +1,15 @@
+servers : 10.22.196.195:11211
+threads count: 1
+concurrency: 6
+run time: 600s
+windows size: 10k
+set proportion: set_prop=1.00
+get proportion: get_prop=0.00
+cmd_get: 0
+cmd_set: 1042220
+get_misses: 0
+written_bytes: 1151653100
+read_bytes: 8337712
+object_bytes: 1133935360
+
+Run time: 210.0s Ops: 1042220 TPS: 4962 Net_rate: 5.3M/s

@@ -1,0 +1,197 @@
+---------------- hbfdp - sysbench ----------------
+>>> RAM: 8192
+Experiment No: 1
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 1
+Restarting Experiment No: 1
+
+Experiment No: 1
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 750, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 4, "downtime": 21, "total-time": 26206, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 80257, "downtime-bytes": 467863, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 282.22552904358446, "transferred": 924146832, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 923678969, "duplicate": 1880514, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 905453568, "normal": 221058}, "page-count": [2101458, 114, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 2
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 856, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 4, "downtime": 21, "total-time": 25509, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 82452, "downtime-bytes": 476071, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 286.6782425406783, "transferred": 913753740, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 913277669, "duplicate": 1883054, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 895057920, "normal": 218520}, "page-count": [2101458, 116, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 3
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 3
+Restarting Experiment No: 3
+
+Experiment No: 3
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 3
+Restarting Experiment No: 3
+
+Experiment No: 3
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 1007, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 5, "downtime": 37, "total-time": 26148, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 80487, "downtime-bytes": 521215, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 281.57054232490532, "transferred": 919925004, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 919403789, "duplicate": 1881558, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 901230592, "normal": 220027}, "page-count": [2101458, 127, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 4
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 4
+Restarting Experiment No: 4
+
+Experiment No: 4
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 2333, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 5, "downtime": 57, "total-time": 26242, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 80257, "downtime-bytes": 1715623, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 281.2430915119869, "transferred": 922159542, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 920443919, "duplicate": 1881320, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 903462912, "normal": 220572}, "page-count": [2101458, 434, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 5
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 3324, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 4, "downtime": 60, "total-time": 25924, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 81253, "downtime-bytes": 2524786, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 284.42307160493823, "transferred": 921318420, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 918793634, "duplicate": 1881798, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 902619136, "normal": 220366}, "page-count": [2101458, 706, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 6
+Restarting Experiment No: 6
+
+Experiment No: 6
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 387, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 5, "downtime": 15, "total-time": 25880, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 81247, "downtime-bytes": 439135, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 288.42817885990337, "transferred": 932672559, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 932233424, "duplicate": 1878425, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 913981440, "normal": 223140}, "page-count": [2101458, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 7
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 7
+Restarting Experiment No: 7
+
+Experiment No: 7
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 4429, 324, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 2, "status": "completed", "setup-time": 6, "downtime": 14, "total-time": 26003, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 4, "multifd-bytes": 0, "pages-per-second": 81081, "downtime-bytes": 238032, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 289.89891048967189, "transferred": 941850389, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 941612357, "duplicate": 1877199, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 923152384, "normal": 225379}, "page-count": [2101458, 1062, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 8
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 8
+Restarting Experiment No: 8
+
+Experiment No: 8
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 8
+Restarting Experiment No: 8
+
+Experiment No: 8
+
+>>> Ping Failed : VM is Not Responding after Migration
+Error In Experiment No: 8
+Restarting Experiment No: 8
+
+Experiment No: 8
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 5541, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 2, "status": "completed", "setup-time": 4, "downtime": 8, "total-time": 26451, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 4, "multifd-bytes": 0, "pages-per-second": 79739, "downtime-bytes": 28728, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 285.231561084433, "transferred": 942727529, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 942698801, "duplicate": 1877075, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 924028928, "normal": 225593}, "page-count": [2101458, 1203, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 9
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 354, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 5, "downtime": 14, "total-time": 26256, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 80086, "downtime-bytes": 447343, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 285.67469094510687, "transferred": 937193457, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 936746114, "duplicate": 1877323, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 918503424, "normal": 224244}, "page-count": [2101458, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+Experiment No: 10
+
+Migration:
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}} {"return": {}} {"return": {"fake-dirty": [0, 1718, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "iterations": 1, "status": "completed", "setup-time": 4, "downtime": 33, "total-time": 26184, "ram": {"total": 8607571968, "postcopy-requests": 0, "dirty-sync-count": 3, "multifd-bytes": 0, "pages-per-second": 80364, "downtime-bytes": 652561, "page-size": 4096, "remaining": 0, "postcopy-bytes": 0, "mbps": 286.48336806722688, "transferred": 937304490, "dirty-sync-missed-zero-copy": 0, "precopy-bytes": 936651929, "duplicate": 1877348, "dirty-pages-rate": 0, "skipped": 0, "normal-bytes": 918614016, "normal": 224271}, "page-count": [2101458, 161, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}}
+
+-----------------------------------
+

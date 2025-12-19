@@ -1,0 +1,185 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2147
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 86848
+>>> Enabling XBZRLE
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 4198610
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 4198610
+Iteration 2 
+# Pages Transferred in Current Iteration : 115328
+Fake Dirty Count : 217663
+Iteration 3 
+# Pages Received in Current Iteration : 115328
+Iteration 3 
+# Pages Transferred in Current Iteration : 27437
+Fake Dirty Count : 55361
+Iteration 4 
+# Pages Received in Current Iteration : 27437
+Iteration 4 
+# Pages Transferred in Current Iteration : 9251
+Fake Dirty Count : 10728
+Iteration 5 
+# Pages Received in Current Iteration : 9251
+Iteration 5 
+# Pages Transferred in Current Iteration : 3962
+Fake Dirty Count : 3348
+Iteration 6 
+# Pages Received in Current Iteration : 3962
+Iteration 6 
+# Pages Transferred in Current Iteration : 3441
+Fake Dirty Count : 1965
+Iteration 7 
+# Pages Received in Current Iteration : 3441
+Iteration 7 
+# Pages Transferred in Current Iteration : 3799
+Fake Dirty Count : 1863
+Iteration 8 
+# Pages Received in Current Iteration : 3799
+Iteration 8 
+# Pages Transferred in Current Iteration : 3497
+Fake Dirty Count : 2009
+Iteration 9 
+# Pages Received in Current Iteration : 3497
+Iteration 9 
+# Pages Transferred in Current Iteration : 3651
+Fake Dirty Count : 1949
+Iteration 10 
+# Pages Received in Current Iteration : 3651
+Iteration 10 
+# Pages Transferred in Current Iteration : 3955
+Fake Dirty Count : 2220
+Iteration 11 
+# Pages Received in Current Iteration : 3955
+Iteration 11 
+# Pages Transferred in Current Iteration : 3793
+Fake Dirty Count : 2172
+Iteration 12 
+# Pages Received in Current Iteration : 3793
+Iteration 12 
+# Pages Transferred in Current Iteration : 3426
+Fake Dirty Count : 1805
+Iteration 13 
+# Pages Received in Current Iteration : 3426
+Iteration 13 
+# Pages Transferred in Current Iteration : 3600
+Fake Dirty Count : 2036
+Iteration 14 
+# Pages Received in Current Iteration : 3600
+Iteration 14 
+# Pages Transferred in Current Iteration : 3521
+Fake Dirty Count : 1951
+Iteration 15 
+# Pages Received in Current Iteration : 3521
+Iteration 15 
+# Pages Transferred in Current Iteration : 3345
+Fake Dirty Count : 2420
+Iteration 16 
+# Pages Received in Current Iteration : 3345
+Iteration 16 
+# Pages Transferred in Current Iteration : 3765
+Fake Dirty Count : 2023
+Iteration 17 
+# Pages Received in Current Iteration : 3765
+Iteration 17 
+# Pages Transferred in Current Iteration : 3562
+Fake Dirty Count : 1967
+Iteration 18 
+# Pages Received in Current Iteration : 3562
+Iteration 18 
+# Pages Transferred in Current Iteration : 3607
+Fake Dirty Count : 1997
+Iteration 19 
+# Pages Received in Current Iteration : 3607
+Iteration 19 
+# Pages Transferred in Current Iteration : 3611
+Fake Dirty Count : 1908
+Iteration 20 
+# Pages Received in Current Iteration : 3611
+Iteration 20 
+# Pages Transferred in Current Iteration : 3884
+Fake Dirty Count : 2149
+Iteration 21 
+# Pages Received in Current Iteration : 3884
+Iteration 21 
+# Pages Transferred in Current Iteration : 3711
+Fake Dirty Count : 2080
+Iteration 22 
+# Pages Received in Current Iteration : 3711
+Iteration 22 
+# Pages Transferred in Current Iteration : 3424
+Fake Dirty Count : 1814
+Iteration 23 
+# Pages Received in Current Iteration : 3424
+Iteration 23 
+# Pages Transferred in Current Iteration : 3591
+Fake Dirty Count : 1900
+Iteration 24 
+# Pages Received in Current Iteration : 3591
+Iteration 24 
+# Pages Transferred in Current Iteration : 3748
+Fake Dirty Count : 2186
+Iteration 25 
+# Pages Received in Current Iteration : 3748
+Iteration 25 
+# Pages Transferred in Current Iteration : 3238
+Fake Dirty Count : 1877
+Iteration 26 
+Function : migration_completion 
+# Pages Received in Current Iteration : 3238
+Iteration 26 
+# Pages Transferred in Current Iteration : 2446
+Fake Dirty Count : 2390
+# Pages Received in Current Iteration : 2446
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.Murmur3_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment6/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.Murmur3_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment6/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           69,068 100%   65.87MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 69,176 bytes  46,146.00 bytes/sec
+total size is 69,068  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.Murmur3_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment6/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,454 100%    9.02MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,551 bytes  19,188.00 bytes/sec
+total size is 9,454  speedup is 0.99

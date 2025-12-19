@@ -1,0 +1,112 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2106
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 158295
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 4198610
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 4198610
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Selected to Transfer : 331280
+# Pages Received in Current Iteration : 4198610
+Iteration 2 
+# Pages Transferred in Current Iteration : 110355
+Fake Dirty Count : 220925
+Iteration 3 
+# Pages Selected to Transfer : 139728
+# Pages Received in Current Iteration : 110355
+Iteration 3 
+# Pages Transferred in Current Iteration : 82619
+Fake Dirty Count : 57109
+Iteration 4 
+# Pages Selected to Transfer : 302272
+# Pages Received in Current Iteration : 82619
+Iteration 4 
+# Pages Transferred in Current Iteration : 232469
+Fake Dirty Count : 69803
+Iteration 5 
+# Pages Selected to Transfer : 586107
+# Pages Received in Current Iteration : 232469
+Iteration 5 
+# Pages Transferred in Current Iteration : 497034
+Fake Dirty Count : 89073
+Iteration 6 
+# Pages Selected to Transfer : 766238
+# Pages Received in Current Iteration : 497034
+Iteration 6 
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 566833
+Fake Dirty Count : 199405
+Iteration 7 
+# Pages Selected to Transfer : 122184
+# Pages Received in Current Iteration : 566833
+Iteration 7 
+# Pages Transferred in Current Iteration : 65726
+Fake Dirty Count : 56458
+Iteration 8 
+# Pages Selected to Transfer : 36087
+# Pages Received in Current Iteration : 65726
+Iteration 8 
+# Pages Transferred in Current Iteration : 12601
+Fake Dirty Count : 23486
+Iteration 9 
+# Pages Selected to Transfer : 12977
+# Pages Received in Current Iteration : 12601
+Iteration 9 
+# Pages Transferred in Current Iteration : 4201
+Fake Dirty Count : 8776
+Iteration 10 
+# Pages Selected to Transfer : 3262
+Function : migration_completion 
+# Pages Received in Current Iteration : 4201
+Iteration 10 
+# Pages Transferred in Current Iteration : 1509
+Fake Dirty Count : 1753
+# Pages Received in Current Iteration : 1509
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_PreCopy.MD5_2025-02-22_1/RAM16384/Experiment4
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_PreCopy.MD5_2025-02-22_1/RAM16384/Experiment4
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           96,788 100%   92.30MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 96,896 bytes  193,878.00 bytes/sec
+total size is 96,788  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-22_1/Memcached_2025-02-22_1/HBFDP_PreCopy.MD5_2025-02-22_1/RAM16384/Experiment4
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00           13,224 100%   12.61MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 13,321 bytes  26,728.00 bytes/sec
+total size is 13,224  speedup is 0.99

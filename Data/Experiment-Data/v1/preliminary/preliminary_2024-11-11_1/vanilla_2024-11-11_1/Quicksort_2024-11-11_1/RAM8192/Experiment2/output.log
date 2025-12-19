@@ -1,0 +1,35 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 1833
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 2101458
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 2101458
+Iteration 2 
+# Pages Transferred in Current Iteration : 7126
+Fake Dirty Count : 5390
+Iteration 3 
+Function : migration_completion 
+# Pages Received in Current Iteration : 7126
+Iteration 3 
+# Pages Transferred in Current Iteration : 428
+Fake Dirty Count : 284
+# Pages Received in Current Iteration : 428
+>>> Checking for Migration Status
+>>> Migration Completed

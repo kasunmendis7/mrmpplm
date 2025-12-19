@@ -1,0 +1,103 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2127
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 124279
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling Data Compression
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+# Pages Selected to Transfer : 1052882
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 1052882
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 1052882
+# Pages Selected to Transfer : 165904
+Iteration 2 
+# Pages Transferred in Current Iteration : 57371
+Fake Dirty Count : 108533
+Iteration 3 
+# Pages Selected to Transfer : 40320
+# Pages Received in Current Iteration : 57371
+Iteration 3 
+# Pages Transferred in Current Iteration : 12557
+Fake Dirty Count : 27763
+Iteration 4 
+# Pages Selected to Transfer : 13960
+# Pages Received in Current Iteration : 12557
+Iteration 4 
+# Pages Transferred in Current Iteration : 5385
+Fake Dirty Count : 8575
+Iteration 5 
+# Pages Selected to Transfer : 6816
+# Pages Received in Current Iteration : 5385
+Iteration 5 
+# Pages Transferred in Current Iteration : 2764
+Fake Dirty Count : 4052
+Iteration 6 
+# Pages Selected to Transfer : 5520
+# Pages Received in Current Iteration : 2764
+Iteration 6 
+# Pages Transferred in Current Iteration : 2560
+Fake Dirty Count : 2960
+Iteration 7 
+# Pages Selected to Transfer : 3152
+Function : migration_completion 
+# Pages Received in Current Iteration : 2560
+Iteration 7 
+# Pages Transferred in Current Iteration : 1255
+Fake Dirty Count : 1897
+# Pages Received in Current Iteration : 1255
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-21_1/Memcached_2025-02-21_1/HBFDP_Compress_PreCopy.SHA1_2025-02-21_1/RAM4096/Experiment7
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  11,902.67 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-21_1/Memcached_2025-02-21_1/HBFDP_Compress_PreCopy.SHA1_2025-02-21_1/RAM4096/Experiment7
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           70,685 100%   67.41MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 70,793 bytes  47,224.00 bytes/sec
+total size is 70,685  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/final_2025-02-21_1/Memcached_2025-02-21_1/HBFDP_Compress_PreCopy.SHA1_2025-02-21_1/RAM4096/Experiment7
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,657 100%    9.21MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,754 bytes  19,594.00 bytes/sec
+total size is 9,657  speedup is 0.99

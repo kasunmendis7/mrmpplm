@@ -1,0 +1,52 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 2087
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 528594
+Fake Dirty Count : 0
+Iteration 2 
+Function : migration_completion 
+# Pages Received in Current Iteration : 528594
+Iteration 2 
+# Pages Transferred in Current Iteration : 1873
+Fake Dirty Count : 1516
+# Pages Received in Current Iteration : 1873
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment1/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00            4,623 100%    4.41MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 4,720 bytes  9,526.00 bytes/sec
+total size is 4,623  speedup is 0.97
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment1/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           11,087 100%   10.57MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 11,183 bytes  7,484.00 bytes/sec
+total size is 11,087  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment1/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            1,537 100%    1.47MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 1,634 bytes  1,118.00 bytes/sec
+total size is 1,537  speedup is 0.92

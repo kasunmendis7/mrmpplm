@@ -1,0 +1,66 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 1826
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 3150034
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 3150034
+Iteration 2 
+# Pages Transferred in Current Iteration : 41319
+Fake Dirty Count : 24402
+Iteration 3 
+# Pages Received in Current Iteration : 41319
+Iteration 3 
+# Pages Transferred in Current Iteration : 23107
+Fake Dirty Count : 11048
+Iteration 4 
+# Pages Received in Current Iteration : 23107
+Iteration 4 
+# Pages Transferred in Current Iteration : 10681
+Fake Dirty Count : 5109
+Iteration 5 
+# Pages Received in Current Iteration : 10681
+Iteration 5 
+# Pages Transferred in Current Iteration : 8493
+Fake Dirty Count : 2209
+Iteration 6 
+# Pages Received in Current Iteration : 8493
+Iteration 6 
+# Pages Transferred in Current Iteration : 7799
+Fake Dirty Count : 2747
+Iteration 7 
+# Pages Received in Current Iteration : 7799
+Iteration 7 
+# Pages Transferred in Current Iteration : 5835
+Fake Dirty Count : 697
+Iteration 8 
+# Pages Received in Current Iteration : 5835
+Iteration 8 
+# Pages Transferred in Current Iteration : 7665
+Fake Dirty Count : 4038
+Iteration 9 
+Function : migration_completion 
+# Pages Received in Current Iteration : 7665
+Iteration 9 
+# Pages Transferred in Current Iteration : 4580
+Fake Dirty Count : 3107
+# Pages Received in Current Iteration : 4580
+>>> Checking for Migration Status
+>>> Migration Completed

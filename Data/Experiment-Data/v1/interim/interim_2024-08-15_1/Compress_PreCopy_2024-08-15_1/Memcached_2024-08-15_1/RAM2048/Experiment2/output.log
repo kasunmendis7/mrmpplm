@@ -1,0 +1,77 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2198
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 13981
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling Data Compression
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 528594
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 528594
+Iteration 2 
+# Pages Transferred in Current Iteration : 81966
+Fake Dirty Count : 49620
+Iteration 3 
+# Pages Received in Current Iteration : 81966
+Iteration 3 
+# Pages Transferred in Current Iteration : 9691
+Fake Dirty Count : 5036
+Iteration 4 
+Function : migration_completion 
+# Pages Received in Current Iteration : 9691
+Iteration 4 
+# Pages Transferred in Current Iteration : 2408
+Fake Dirty Count : 949
+# Pages Received in Current Iteration : 2408
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/Compress_PreCopy_2024-08-15_1/Memcached_2024-08-15_1/RAM2048/Experiment2/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,810 bytes  11,902.00 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/Compress_PreCopy_2024-08-15_1/Memcached_2024-08-15_1/RAM2048/Experiment2/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           68,144 100%   64.99MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 68,253 bytes  45,530.67 bytes/sec
+total size is 68,144  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/Compress_PreCopy_2024-08-15_1/Memcached_2024-08-15_1/RAM2048/Experiment2/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,338 100%    8.91MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,435 bytes  6,318.67 bytes/sec
+total size is 9,338  speedup is 0.99

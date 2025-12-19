@@ -1,0 +1,103 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Memcached in VM
+>>> Started Memcached in VM, Process ID : 2192
+>>> Starting Memaslap in Client
+>>> Started Memaslap in Client, Process ID : 76956
+>>> Enabling XBZRLE
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+>>> Enabling HBFDP
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+{"return": {}}
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+# Pages Transferred in Current Iteration : 4198610
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 4198610
+Iteration 2 
+# Pages Transferred in Current Iteration : 109220
+Fake Dirty Count : 142720
+Iteration 3 
+# Pages Received in Current Iteration : 109220
+Iteration 3 
+# Pages Transferred in Current Iteration : 22257
+Fake Dirty Count : 44904
+Iteration 4 
+# Pages Received in Current Iteration : 22257
+Iteration 4 
+# Pages Transferred in Current Iteration : 7844
+Fake Dirty Count : 10650
+Iteration 5 
+# Pages Received in Current Iteration : 7844
+Iteration 5 
+# Pages Transferred in Current Iteration : 4192
+Fake Dirty Count : 3183
+Iteration 6 
+# Pages Received in Current Iteration : 4192
+Iteration 6 
+# Pages Transferred in Current Iteration : 2879
+Fake Dirty Count : 2185
+Iteration 7 
+# Pages Received in Current Iteration : 2879
+Iteration 7 
+# Pages Transferred in Current Iteration : 3292
+Fake Dirty Count : 1951
+Iteration 8 
+# Pages Received in Current Iteration : 3292
+Iteration 8 
+# Pages Transferred in Current Iteration : 3677
+Fake Dirty Count : 2398
+Iteration 9 
+Function : migration_completion 
+# Pages Received in Current Iteration : 3677
+Iteration 9 
+# Pages Transferred in Current Iteration : 2064
+Fake Dirty Count : 2724
+# Pages Received in Current Iteration : 2064
+>>> Checking for Migration Status
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.MD5_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment2/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00           17,714 100%   16.89MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 17,811 bytes  2,746.77 bytes/sec
+total size is 17,714  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.MD5_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment2/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           70,223 100%   66.97MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 70,331 bytes  140,748.00 bytes/sec
+total size is 70,223  speedup is 1.00
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data/interim_2024-08-15_1/HBFDP_XBZRLE_PreCopy.MD5_2024-08-17_1/Memcached_2024-08-17_1/RAM16384/Experiment2/
+receiving incremental file list
+net_usage.log
+              0   0%    0.00kB/s    0:00:00            9,628 100%    9.18MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 9,725 bytes  19,536.00 bytes/sec
+total size is 9,628  speedup is 0.99

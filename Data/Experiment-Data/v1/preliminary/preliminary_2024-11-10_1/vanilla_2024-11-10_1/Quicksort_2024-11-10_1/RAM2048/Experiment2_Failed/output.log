@@ -1,0 +1,52 @@
+>>> Readying Destination to Recieve VM
+>>> Tap Device tap0 Already in Use
+>>> Successfull Started Destination
+>>> Tap Device tap0 Already in Use
+>>> Starting VM in Source
+>>> VM Up & Running
+>>> Starting Quicksort in VM
+>>> Started Quicksort in VM, Process ID : 2151
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 8}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}}
+Starting PreCopy Migartion
+{"return": {}}
+Starting Iterations ...
+Iteration 1 
+Iteration 0 
+# Pages Received in Current Iteration : 0
+Iteration 1 
+>>> Checking for Migration Status
+# Pages Transferred in Current Iteration : 528594
+Fake Dirty Count : 0
+Iteration 2 
+# Pages Received in Current Iteration : 528594
+Iteration 2 
+# Pages Transferred in Current Iteration : 8971
+Fake Dirty Count : 7004
+Iteration 3 
+Function : migration_completion 
+# Pages Received in Current Iteration : 8971
+Iteration 3 
+# Pages Transferred in Current Iteration : 362
+Fake Dirty Count : 207
+# Pages Received in Current Iteration : 362
+>>> Migration Completed
+root@10.22.196.195:/home/vmuser/Desktop/cpu_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment2/
+receiving incremental file list
+cpu_usage.log
+              0   0%    0.00kB/s    0:00:00            6,078 100%    5.80MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 6,175 bytes  12,436.00 bytes/sec
+total size is 6,078  speedup is 0.98
+root@10.22.196.195:/home/vmuser/Desktop/mem_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment2/
+receiving incremental file list
+mem_usage.log
+              0   0%    0.00kB/s    0:00:00           14,552 100%   13.88MB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 43 bytes  received 14,648 bytes  132.95 bytes/sec
+total size is 14,552  speedup is 0.99
+root@10.22.196.195:/home/vmuser/Desktop/net_usage.log
+/mnt/nfs/samindu/mrmpplm/Data-and-Logs/Experiment-Data//preliminary_2024-11-10_1/vanilla_2024-11-10_1/Quicksort_2024-11-10_1/RAM2048/Experiment2/
+>>> rsync command failed with error code 255.
